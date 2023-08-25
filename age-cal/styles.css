@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1130px;
+    margin: 50px;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-color: #336699;
+    color: white;
+    text-align: start;
+    padding: 10px 0;
+}
+
+.header h1{
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-left: 20px;
+}
+
+.calculator {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.input-section {
+    flex: 1;
+}
+
+.result-section {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.input-row {
+    /* display: grid;
+    grid-template-columns: repeat(5, 1fr); */
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select, input[type="number"], button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.year-input {
+    display: flex;
+    align-items: center;
+}
+
+#result {
+    font-size: 18px;
+}
+
+#calculate-button{
+    width: 180px;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 5px;
+    background: #336699;
+}
+
+.cal-text{
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    text-align: center;
+    color:#fff;
+}
+
+#recent-date{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+}
+
+.input-row label{
+    margin-top: 10px;
+    position: fixed;
+}
+
+.margin-left{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 150px;
+}
+
+#dob-year{
+    width: 60px;
+}
+#age-date-year{
+    width: 60px;
+}
+
+#age-date-year-btn, #dob-year-btn{
+   width: 40px;
+   height: 40px;
+}
+
+.vector-img{
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+}

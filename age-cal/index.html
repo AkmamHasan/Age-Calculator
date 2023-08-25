@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Age Calculator</title>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>Age Calculator</h1>
+    </div>
+    <div class="calculator">
+        <div class="input-section">
+            <div class="input-row">
+                <label for="dob-month">Date of Birth</label>
+
+                <div class="margin-left">
+                <select id="dob-month">
+                    <!-- Options for months (1-12) -->
+                </select>
+                <select id="dob-day">
+                    <!-- Options for days (1-31) -->
+                </select>
+                <div class="year-input">
+                    <input type="number" id="dob-year" placeholder="Year">
+                    <button id="dob-year-btn"><img class="vector-img" src="Vector.png"></button>
+                </div>
+                </div>
+
+            </div>
+            <div class="input-row">
+                <label for="age-date-month">Age at the date of</label>
+            <div class="margin-left">
+                <select id="age-date-month">
+                    <!-- Options for months (1-12) -->
+                </select>
+                <select id="age-date-day">
+                    <!-- Options for days (1-31) -->
+                </select>
+                <div class="year-input">
+                    <input type="number" id="age-date-year" placeholder="Year">
+                    <button id="age-date-year-btn"> <img class="vector-img" src="Vector.png"> </button>
+                </div>
+            </div>
+            </div>
+            <div class="input-row margin-left">
+                <label for="recent-date">
+                    <input type="checkbox" id="recent-date">Recent Date
+                </label>
+            </div>
+            
+            <div class="input-row margin-left">
+                <button id="calculate-button"><span class="cal-text">Calculate</span></button>
+            </div>
+        </div>
+        <div class="result-section">
+            <div id="result">
+                <!-- Result will be displayed here -->
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
